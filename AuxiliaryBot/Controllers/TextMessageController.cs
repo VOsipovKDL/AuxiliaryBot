@@ -8,13 +8,11 @@ namespace AuxiliaryBot.Controllers;
 
 internal class TextMessageController
 {
-    private readonly IStorage _memoryStorage;
     private readonly ITelegramBotClient _telegramClient;
     private readonly IAction _actionService;
 
     public TextMessageController(IStorage memoryStorage, ITelegramBotClient telegramBotClient, IAction actionService    )
     {
-        _memoryStorage = memoryStorage;
         _telegramClient = telegramBotClient;
         _actionService=actionService;
     }
