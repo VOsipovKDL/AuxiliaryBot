@@ -1,5 +1,4 @@
-﻿using AuxiliaryBot.Models;
-using Telegram.Bot.Types;
+﻿using Telegram.Bot.Types;
 
 namespace AuxiliaryBot.Services.Interfaces;
 
